@@ -701,6 +701,20 @@ array-flatten@1.1.1:
   resolved "https://ab-inbev.pkgs.visualstudio.com/GHQ_B2B_Delta/_packaging/admin-portal-shared-services/npm/registry/array-flatten/-/array-flatten-1.1.1.tgz#9a5f699051b1e7073328f2a008968b64ea2955d2"
   integrity sha1-ml9pkFGx5wczKPKgCJaLZOopVdI=
 
+asynckit@^0.4.0:
+  version "0.4.0"
+  resolved "https://ab-inbev.pkgs.visualstudio.com/GHQ_B2B_Delta/_packaging/admin-portal-shared-services/npm/registry/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
+  integrity sha1-x57Zf380y48robyXkLzDZkdLS3k=
+
+axios@^1.2.2:
+  version "1.2.2"
+  resolved "https://ab-inbev.pkgs.visualstudio.com/GHQ_B2B_Delta/_packaging/admin-portal-shared-services/npm/registry/axios/-/axios-1.2.2.tgz#72681724c6e6a43a9fea860fc558127dbe32f9f1"
+  integrity sha1-cmgXJMbmpDqf6oYPxVgSfb4y+fE=
+  dependencies:
+    follow-redirects "^1.15.0"
+    form-data "^4.0.0"
+    proxy-from-env "^1.1.0"
+
 "babel-plugin-styled-components@>= 1.12.0":
   version "2.0.7"
   resolved "https://ab-inbev.pkgs.visualstudio.com/GHQ_B2B_Delta/_packaging/admin-portal-shared-services/npm/registry/babel-plugin-styled-components/-/babel-plugin-styled-components-2.0.7.tgz#c81ef34b713f9da2b7d3f5550df0d1e19e798086"
@@ -830,6 +844,13 @@ color-name@~1.1.4:
   resolved "https://ab-inbev.pkgs.visualstudio.com/GHQ_B2B_Delta/_packaging/admin-portal-shared-services/npm/registry/color-name/-/color-name-1.1.4.tgz#c2a09a87acbde69543de6f63fa3995c826c536a2"
   integrity sha1-wqCah6y95pVD3m9j+jmVyCbFNqI=
 
+combined-stream@^1.0.8:
+  version "1.0.8"
+  resolved "https://ab-inbev.pkgs.visualstudio.com/GHQ_B2B_Delta/_packaging/admin-portal-shared-services/npm/registry/combined-stream/-/combined-stream-1.0.8.tgz#c3d45a8b34fd730631a110a8a2520682b31d5a7f"
+  integrity sha1-w9RaizT9cwYxoRCoolIGgrMdWn8=
+  dependencies:
+    delayed-stream "~1.0.0"
+
 compressible@~2.0.16:
   version "2.0.18"
   resolved "https://ab-inbev.pkgs.visualstudio.com/GHQ_B2B_Delta/_packaging/admin-portal-shared-services/npm/registry/compressible/-/compressible-2.0.18.tgz#af53cca6b070d4c3c0750fbd77286a6d7cc46fba"
@@ -929,6 +950,11 @@ debug@3.1.0:
   integrity sha1-W7WgZyYotkFJVmuhaBnmFRjGcmE=
   dependencies:
     ms "2.0.0"
+
+delayed-stream@~1.0.0:
+  version "1.0.0"
+  resolved "https://ab-inbev.pkgs.visualstudio.com/GHQ_B2B_Delta/_packaging/admin-portal-shared-services/npm/registry/delayed-stream/-/delayed-stream-1.0.0.tgz#df3ae199acadfb7d440aaae0b29e2272b24ec619"
+  integrity sha1-3zrhmayt+31ECqrgsp4icrJOxhk=
 
 depd@2.0.0, depd@~2.0.0:
   version "2.0.0"
@@ -1078,6 +1104,20 @@ finalhandler@1.2.0:
     parseurl "~1.3.3"
     statuses "2.0.1"
     unpipe "~1.0.0"
+
+follow-redirects@^1.15.0:
+  version "1.15.2"
+  resolved "https://ab-inbev.pkgs.visualstudio.com/GHQ_B2B_Delta/_packaging/admin-portal-shared-services/npm/registry/follow-redirects/-/follow-redirects-1.15.2.tgz#b460864144ba63f2681096f274c4e57026da2c13"
+  integrity sha1-tGCGQUS6Y/JoEJbydMTlcCbaLBM=
+
+form-data@^4.0.0:
+  version "4.0.0"
+  resolved "https://ab-inbev.pkgs.visualstudio.com/GHQ_B2B_Delta/_packaging/admin-portal-shared-services/npm/registry/form-data/-/form-data-4.0.0.tgz#93919daeaf361ee529584b9b31664dc12c9fa452"
+  integrity sha1-k5Gdrq82HuUpWEubMWZNwSyfpFI=
+  dependencies:
+    asynckit "^0.4.0"
+    combined-stream "^1.0.8"
+    mime-types "^2.1.12"
 
 forwarded@0.2.0:
   version "0.2.0"
@@ -1343,7 +1383,7 @@ mime-db@1.52.0, "mime-db@>= 1.43.0 < 2":
   resolved "https://ab-inbev.pkgs.visualstudio.com/GHQ_B2B_Delta/_packaging/admin-portal-shared-services/npm/registry/mime-db/-/mime-db-1.52.0.tgz#bbabcdc02859f4987301c856e3387ce5ec43bf70"
   integrity sha1-u6vNwChZ9JhzAchW4zh85exDv3A=
 
-mime-types@~2.1.24, mime-types@~2.1.34:
+mime-types@^2.1.12, mime-types@~2.1.24, mime-types@~2.1.34:
   version "2.1.35"
   resolved "https://ab-inbev.pkgs.visualstudio.com/GHQ_B2B_Delta/_packaging/admin-portal-shared-services/npm/registry/mime-types/-/mime-types-2.1.35.tgz#381a871b62a734450660ae3deee44813f70d959a"
   integrity sha1-OBqHG2KnNEUGYK497uRIE/cNlZo=
@@ -1500,6 +1540,11 @@ proxy-addr@~2.0.7:
   dependencies:
     forwarded "0.2.0"
     ipaddr.js "1.9.1"
+
+proxy-from-env@^1.1.0:
+  version "1.1.0"
+  resolved "https://ab-inbev.pkgs.visualstudio.com/GHQ_B2B_Delta/_packaging/admin-portal-shared-services/npm/registry/proxy-from-env/-/proxy-from-env-1.1.0.tgz#e102f16ca355424865755d2c9e8ea4f24d58c3e2"
+  integrity sha1-4QLxbKNVQkhldV0sno6k8k1Yw+I=
 
 qs@6.11.0:
   version "6.11.0"
