@@ -3442,6 +3442,11 @@ use-callback-ref@^1.3.0:
   dependencies:
     tslib "^2.0.0"
 
+use-context-selector@^1.4.1:
+  version "1.4.1"
+  resolved "https://ab-inbev.pkgs.visualstudio.com/GHQ_B2B_Delta/_packaging/admin-portal-shared-services/npm/registry/use-context-selector/-/use-context-selector-1.4.1.tgz#eb96279965846b72915d7f899b8e6ef1d768b0ae"
+  integrity sha1-65YnmWWEa3KRXX+Jm45u8ddosK4=
+
 use-sidecar@^1.1.2:
   version "1.1.2"
   resolved "https://ab-inbev.pkgs.visualstudio.com/GHQ_B2B_Delta/_packaging/admin-portal-shared-services/npm/registry/use-sidecar/-/use-sidecar-1.1.2.tgz#2f43126ba2d7d7e117aa5855e5d8f0276dfe73c2"
